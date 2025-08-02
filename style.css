@@ -1,0 +1,70 @@
+body{
+    background-color: lightblue;
+    margin: 0;
+}
+h1{
+    margin-top: 0;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace  ;
+    color: darkslategrey;
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    margin-left: 25%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.displayed{
+    text-align: center;
+}
+input{
+    text-align: center;
+}
+.inp{
+    margin-top: 50px;
+    margin-left: 40%;
+}
+.start{
+
+    margin-left: 45%;
+
+}
+.begining{
+    background-color: cadetblue;
+    margin-top: 0;
+    text-align: center;
+}
+.instruction {
+    margin-left: 10%;
+}
+.level{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.panick{
+    color: crimson;
+}
+.theButtons{
+    margin-left: 40%;
+    margin-top: 50px;
+}
+footer{
+    margin-top: 300px;
+    background-color: white;
+    border-radius: 30px;
+    font-family: cursive;
+    color:darkcyan;
+}
+.word{
+    color: black;
+    font-size: xx-large;
+}
+.game-over{
+ background-color: red;
+ opacity: 0.7 ;
+}
+.success{
+    background-color: greenyellow;
+    opacity: 0.7;
+}

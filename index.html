@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory strength</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sigmar&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+    
+</head>
+   
+<body>
+    <div class="begining">
+    <h1>How dump are you😊</h1>
+    <h3>This game is created to test your mental capacity to memorize stuffs</h3>
+    <h3>If you fail, don`t worry, it just shows the reality that you fail to accept😒</h3>
+    </div>
+    
+    <h3 class="instruction">Finally, the instruction of the game is as follows:- </h3>
+    <div>
+        <p>-Try to log the displayed words with the correct order as much as you can! <br>-You are given infinite time to solve, so  <span class="panick">don`t panick</span>😉 </p>
+    </div>
+    <div class="start">
+        <button class="btn btn-danger">START</button>
+
+    </div>
+        <h1 class="level">Level 0</h1>
+    <div class="displayed">
+        <h1 class="word"></h1>
+        <h1 class="mess"></h1><h1 class="theScore"></h1>
+    </div>
+    <div class="inp">
+        <input type="userInput" placeholder="Enter the displayed words" id="userInputWord" > 
+    </div>
+    <div class="theButtons">
+        <button onclick="addToList()" class="btn btn-secondary">Add</button> <button class="btn btn-success">Done</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="gameLogic.js"></script>
+</body>
+<footer>
+    This weird game was created by Bader, just for entertainment!
+</footer>
+</html>
