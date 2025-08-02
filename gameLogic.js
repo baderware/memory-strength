@@ -4323,8 +4323,9 @@ function randNounGen(){
 $(".btn-danger").click(function(){
    if (!started){
         $(".btn-danger").hide();
+        $(".theScore").hide();
         $(".level").show();
-         $(".mess").hide();
+        $(".mess").hide();
         nextSequence();
         started=true;
    }
@@ -4345,6 +4346,7 @@ function startOver(){
     $(".level").hide();
     $("body").addClass("game-over");
     $(".theScore").text("Your score : "+score);
+    $(".theScore").show();
     setTimeout(function(){
         $("body").removeClass("game-over");
     },200)
@@ -4419,4 +4421,5 @@ function success(){
 function playSound(name){
     var audio=new Audio("sounds/" + name + ".mp3");
     audio.play()
+
 }
